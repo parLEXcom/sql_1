@@ -7,9 +7,9 @@ def main():
     #cur.execute("""CREATE TABLE Customers(CustomerID INTEGER PRIMARY KEY NOT NULL, Name TEXT, Email TEXT)""")
 
     # Создание данных в таблице
-    #cur.execute("""INSERT INTO Customers (Name, Email)
-                #VALUES ("der", "der333@yandex.ru"),
-                        #("vac", "vac333@yandex.ru")""")
+    cur.execute("""INSERT INTO Customers (Name, Email)
+                VALUES ("ser", "ser333@yandex.ru"),
+                        ("vaccv", "vaccv333@yandex.ru")""")
 
     # Получение данныи из таблицы
     cur.execute("SELECT * FROM Customers")
