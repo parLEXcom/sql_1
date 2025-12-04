@@ -1,5 +1,12 @@
 import sqlite3
 
+
+
+
+
+# РАБОТА С БАЗОЙ ДАННЫХ В ВЕТКЕ FIX
+
+
 def main():
     conn = sqlite3.connect("my_sql.db")
     cur = conn.cursor()
@@ -26,6 +33,7 @@ def main():
 
     conn.commit()
     conn.close()
+
 
 
 if __name__ == "__main__":
